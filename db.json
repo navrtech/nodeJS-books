@@ -53,6 +53,15 @@
       "createdAt": "2024-01-17T06:14:44.157Z",
       "updatedAt": "2024-01-21T03:34:05.843Z",
       "id": 6
+    },
+    {
+      "title": "Mastering Unix v3",
+      "author": "Unix Expert 2",
+      "publicationDate": "2003-04-16T00:00:00.000Z",
+      "isbn": "1593281056",
+      "createdAt": "2024-01-30T04:56:38.236Z",
+      "updatedAt": "2024-01-30T04:56:38.236Z",
+      "id": 7
     }
   ],
   "households": []
