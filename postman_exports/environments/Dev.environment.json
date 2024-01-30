@@ -4,7 +4,7 @@
 	"values": [
 		{
 			"key": "host",
-			"value": "localhost:3000",
+			"value": "localhost:80",
 			"enabled": true
 		}
 	],

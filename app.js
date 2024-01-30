@@ -88,15 +88,6 @@ router.render = (req, res) => {
   if (req.method === "DELETE") {
     res.status(204);
   }
-
-  if (req.method === "POST" && res.statusCode === 201) {
-    res.locals.data.links = [
-      {
-        rel: "self",
-        href: `${fullUrl(req)}/${res.locals.data.id}`,
-      },
-    ];
-  }
   res.jsonp(res.locals.data);
 };
 
@@ -202,8 +193,8 @@ server.use(router);
 
 server.get("*", (req, res) => res.status(404).send());
 
-server.listen(process.env.PORT || 3000, () => {
-  console.log(`Server running: ${process.env.PORT || 3000}`);
+server.listen(process.env.PORT || 80, () => {
+  console.log(`Server running: ${process.env.PORT || 80}`);
 });
 
 module.exports = server;
